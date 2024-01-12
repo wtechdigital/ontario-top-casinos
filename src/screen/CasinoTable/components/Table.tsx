@@ -6,7 +6,6 @@ import { Loader } from "@/components/Loader";
 
 type TableProps = {
   data: CasinoItem[] | undefined;
-  showCurrentAffiliatesData: number;
   loading: boolean;
 };
 
@@ -94,7 +93,6 @@ export const Link = ({ href }: { href: string | undefined }) => {
 
 export const Table: React.FC<TableProps> = ({
   data,
-  showCurrentAffiliatesData,
   loading,
 }) => {
   return (
@@ -121,55 +119,52 @@ export const Table: React.FC<TableProps> = ({
       </thead>
       <tbody className="!p-6">
         {!loading && data?.length! > 0 ? (
-          data
-            ?.slice(0, showCurrentAffiliatesData)
-            ?.map((item: CasinoItem, index: number) => {
-              return (
-                <tr
-                  key={index}
-                  className={`cursor-pointer h-[140px] group  transition-transform transform-gpu hover:outline hover:outline-4 hover:outline-[#AA0BEA]`}
-                  style={{
-                    borderRadius: "16px",
-                    overflow: "hidden",
-                  }}
-                >
-                  <td className="w-[50px] h-[140px] items-center relative">
-                    <span
-                      className={`w-8 h-8 absolute grid place-items-center rounded-lg -left-[14px] !top-[40%] text-center bg-[#FFFFFF1A] group-hover:bg-[#AA0BEA]`}
-                    >
-                      {item?.id}
-                    </span>
-                  </td>
-                  <td className="!w-[192px] !pr-6">
-                    <Casino
-                      src={`https://strapi-canada-reviews-u7263.vm.elestio.app${item?.attributes?.casino?.data?.attributes?.url}`}
-                    />
-                  </td>
-                  <td className="!w-[150px] !pr-6">
-                    <OurScore score={item?.attributes?.rating} />
-                  </td>
-                  <td className="!w-[324px] !pr-6">
-                    <Highlights text={item?.attributes?.highlights} />
-                  </td>
-                  <td className="!w-[190px] !pr-6">
-                    <Rating
-                      views={item?.attributes?.views}
-                      rating={item?.attributes?.rating}
-                    />
-                  </td>
-                  <td className="!w-[131px]">
-                    <Link href={item?.attributes?.link} />
-                  </td>
-                </tr>
-              );
-            })
+          data?.map((item: CasinoItem, index: number) => {
+            return (
+              <tr
+                key={index}
+                className={`cursor-pointer h-[140px] group  transition-transform transform-gpu hover:outline hover:outline-4 hover:outline-[#AA0BEA]`}
+                style={{
+                  borderRadius: "16px",
+                  overflow: "hidden",
+                }}
+              >
+                <td className="w-[50px] h-[140px] items-center relative">
+                  <span
+                    className={`w-8 h-8 absolute grid place-items-center rounded-lg -left-[14px] !top-[40%] text-center bg-[#FFFFFF1A] group-hover:bg-[#AA0BEA]`}
+                  >
+                    {item?.id}
+                  </span>
+                </td>
+                <td className="!w-[192px] !pr-6">
+                  <Casino
+                    src={`https://strapi-canada-reviews-u7263.vm.elestio.app${item?.attributes?.casino?.data?.attributes?.url}`}
+                  />
+                </td>
+                <td className="!w-[150px] !pr-6">
+                  <OurScore score={item?.attributes?.rating} />
+                </td>
+                <td className="!w-[324px] !pr-6">
+                  <Highlights text={item?.attributes?.highlights} />
+                </td>
+                <td className="!w-[190px] !pr-6">
+                  <Rating
+                    views={item?.attributes?.views}
+                    rating={item?.attributes?.rating}
+                  />
+                </td>
+                <td className="!w-[131px]">
+                  <Link href={item?.attributes?.link} />
+                </td>
+              </tr>
+            );
+          })
         ) : (
           <tr>
             <td colSpan={6}>
               <div className="w-full grid place-items-center my-4">
-              <Loader />
+                <Loader />
               </div>
-             
             </td>
           </tr>
         )}

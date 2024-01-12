@@ -14,16 +14,7 @@ import { CasinoData } from "@/utils/data";
 const CasinoTable: React.FC = () => {
   const [affiliateTableData, setAffiliateTableData] =
     React.useState<CasinoData>();
-  const [showCurrentAffiliatesData, setShowCurrentAffiliatesData] =
-    React.useState<number>(3);
     const [loading, setIsLoading] = React.useState<boolean>(true)
-
-  const onLoadMore = React.useCallback(() => {
-    const tableDataLength = affiliateTableData?.data?.length || 0;
-    setShowCurrentAffiliatesData((prevValue) =>
-      Math.min(prevValue + 3, tableDataLength)
-    );
-  }, [affiliateTableData?.data]);
 
   React.useEffect(() => {
     axios
@@ -41,7 +32,7 @@ const CasinoTable: React.FC = () => {
   }, []);
 
   return (
-    <section className="mt-[72px] !relative">
+    <section className="mt-[72px] !relative" id="casino-table">
       <Image
         src={"/image/Ellipse803.png"}
         alt="chip"
@@ -61,26 +52,12 @@ const CasinoTable: React.FC = () => {
       <WSpacedContainer>
         <Table
           data={affiliateTableData?.data}
-          showCurrentAffiliatesData={showCurrentAffiliatesData}
           loading={loading}
         />
         <AffiliateTable
           data={affiliateTableData?.data}
-          showCurrentAffiliatesData={showCurrentAffiliatesData}
           loading={loading}
         />
-        <div className="w-full grid place-items-center mt-8">
-          <button
-            type="button"
-            className="px-6 py-[9px] border-[1px] border-[#E6E6E8] rounded-xl load-more"
-            onClick={() => onLoadMore()}
-            disabled={
-              affiliateTableData?.data?.length! === showCurrentAffiliatesData
-            }
-          >
-            <span className="text-base font-bold">{text.loadMore}</span>
-          </button>
-        </div>
       </WSpacedContainer>
     </section>
   );

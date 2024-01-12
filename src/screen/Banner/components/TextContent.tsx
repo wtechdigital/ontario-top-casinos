@@ -1,11 +1,21 @@
+"use client";
+
 import React from "react";
-import Button from "@/components/Button";
 import { RowElement } from "@/components/RowElement";
 import { bannerData } from "@/utils/data";
 import { text } from "@/utils/text";
 import Image from "next/image";
 
 export const TextContent: React.FC = () => {
+  const scrollIntoView = React.useCallback(() => {
+    const element = document.getElementById("casino-table");
+    element?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+      inline: "start",
+    });
+  }, []);
+
   return (
     <div className="flex flex-col gap-y-6">
       <RowElement className="pl-3 pr-4 py-1 rounded-full border-[#E6E6E833] border-[1px] border-stroke-20 !w-fit">
@@ -37,18 +47,23 @@ export const TextContent: React.FC = () => {
                 height={20}
                 className="!object-contain"
               />
-              <h4 className="text-base text-[#E6E6E8] font-normal xsm:text-wrap xsm:w-[80%]">{value}</h4>
+              <h4 className="text-base text-[#E6E6E8] font-normal xsm:text-wrap xsm:w-[80%]">
+                {value}
+              </h4>
             </RowElement>
           );
         })}
       </div>
 
       <RowElement className="mt-12">
-        <Button className="px-8 py-3 rounded-xl border-[1px] border-[#E6E6E8] xsm:w-fit xsm:px-6">
+        <button
+          onClick={scrollIntoView}
+          className="px-8 py-3 rounded-xl border-[1px] border-[#E6E6E8] xsm:w-fit xsm:px-6"
+        >
           <span className="text-base font-bold text-normal">
             {text.selectCasino}
           </span>
-        </Button>
+        </button>
         <RowElement className="ml-9 xsm:ml-6">
           <Image
             src={"/icon/shield-check.png"}
