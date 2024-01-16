@@ -74,3 +74,22 @@ export type CasinoItem = {
     casino: any
   };
 };
+
+export type ResponsibleGaming ={
+  config: any;
+  data: {
+    data: Array<{
+      attributes: {
+        createdAt: string;
+        description: string;
+      };
+      points: Array<{
+        children: Array<{
+          text: string;
+          type: string;
+        }>;
+        type: string;
+      }>;
+    }>;
+  };
+}

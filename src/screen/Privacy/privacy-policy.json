@@ -1,0 +1,159 @@
+{
+  "data": {
+    "Definitions": {
+      "terms": "Any capitalized definitions not otherwise defined in the Policy shall have the definitions set forth in the Terms.",
+      "title": "The definitions we use",
+      "Device": "Any device that can access the Website, such as a computer, mobile phone, or tablet.",
+      "Pixels": "The pieces of software code that are integrated into the website code and allow tracking and analysis of User behaviour (which pages are visited, which links are followed, etc.).",
+      "Cookies": "Small pieces of data that are stored on your device (computer, smartphone, tablet, etc.) when you visit the Website.",
+      "Visitor": "A person who visits the Website.",
+      "Website": "Name website, available at the domain: [Insert Domain Here].",
+      "IPAddress": "Internet protocol (IP) address that is a unique number, like your post address, associated with your Internet activity.",
+      "DataSubject": "A natural person whose Personal data is processed.",
+      "description": "Capitalized words, both singular and plural, have the following meanings in this Policy:",
+      "PersonalData": "Information about a natural person who is identified or can be specifically identified.",
+      "TechnicalData": "Information that is collected by the Website when you visit it (for example, the IP address (web protocol) of the device you use, data about the web browser you use, your operating system, etc.)."
+    },
+    "ContactDetails": {
+      "Email": "<strong>contact@example.com</strong>",
+      "title": "Our contact detail",
+      "Address": "<strong>Your Company Address Here</strong>",
+      "CompanyName": "<strong>Your Company Name Here</strong>",
+      "Description": "If you have any questions about the Policy or our privacy practices, please contact us using the details below."
+    },
+    "DataCollection": {
+      "cases": "<strong>We receive data directly from you in the following cases:</strong>",
+      "title": " Where does We get Personal data from?",
+      "DirectSources": [
+        "Through the registration form on the Website",
+        "When you contact us by e-mail, telephone, or our post address"
+      ],
+      "TechnicalData": [
+        "IP address, browser data, including device and browser type, browser version, time zone setting,browser plug-in types and versions, operating system and platform, and other technology on the Devices you use to access this Website, data on the Visitor’s interaction with the Website (session ID).",
+        "The session ID includes: your interaction with the Website; if you went to the Website by a link from another website - the address of this website; the functions of the Website used by you; viewed pages; length of stay; way of visiting our Website; date and time of visit and other diagnostic data",
+        "We may use GPS and other technologies to collect geolocation data that tells us your current location (based on your IP address). You can opt out of allowing us to collect this information either by refusing access to the information or by disabling your location setting on your device.",
+        "Usually, the technical data does not give us a real possibility to identify specific natural person, directly or indirectly, and is therefore not considered Personal data. This type of data will only be used by us in an aggregated and anonymized manner. For example, we may use this data to calculate the percentage of the Visitors who access a particular feature of the Website, the number of the Visitors from different geographical regions, etc.",
+        "However, if we combine or link such data with other personal data so that it can directly or indirectly identify the Data Subject, we treat the combined data as Personal data that will be used in accordance with this Policy.",
+        "We may receive information about you from some of our service providers (as  <u>specified in Article 8 below</u>) who assist us with marketing or promotional services, related to how you interact with the Website, promotions, advertisements, or communications.",
+        "We also use Cookies and similar technologies, such as Pixels. You can learn more about Cookies and how we use them in <u> Article 10 hereto.</u>",
+        "Automated processing of the personal data, including profiling is not performed.",
+        "All personal information that you provide to us must be true, complete, and accurate, and you must notify us of any changes to such personal information."
+      ],
+      "GeolocationData": "We may use GPS and other technologies to collect geolocation data based on your IP address.",
+      "SessionIDDetails": [
+        "Interaction with the Website",
+        "Referring website address if applicable",
+        "Website functions used",
+        "Viewed pages",
+        "Length of stay",
+        "Method of visiting our Website",
+        "Date and time of visit",
+        "Other diagnostic data"
+      ],
+      "AnonymizedDataUsage": "Technical data is used in an aggregated and anonymized manner for statistical purposes such as calculating the percentage of visitors accessing a feature of the Website.",
+      "LegitimateInterests": "Other information collection is subject to our proportionate legitimate interests as described in the policy.",
+      "ServiceRequirements": "Some of the Services will require you to provide or submit certain personal  information in order to be able to use them. Some of the features and/or services that require you to provide Personal Information are subject to your consent (e.g. newsletters which may become available on certain Sites from time to time, promotional material and forms) and choice, and others are subject to our proportionate legitimate interests, as described below. For the purposes of this Privacy Policy, “Personal Information” means information that may be used, either alone or in combination with other information, to personally identify an individual, such as a first and last name, an email address, phone number, a home or other physical address, and other contact information. In some jurisdictions and given the specific use we make of the information, IP and Mac addresses that your internet service provider allocates for your device may also be considered as Personal Information. In which case, we will be treating the information as personal in all handling and safeguarding aspects.",
+      "SocialMediaLoginData": "We have the option to register account, using your existing social media account details, like your Facebook, Google, or other account. Where you choose to do this, we will receive certain profile information about you from your social media provider. The profile information we receive may vary depending on the social media provider concerned, but will often include your name, email address, profile picture, language settings, as well as other information you choose to make public on such a social media platform. We will use the information we receive only for the purposes that are described in this Policy. Please note that we do not control and are not responsible for those how your third-party social media provider processes your Personal data. We recommend that you review their privacy policy to understand how they process your Personal data, and how you can set your privacy preferences on their sites and apps.",
+      "AccuracyOfInformation": "All personal information provided must be true,, complete, and accurate, and you must notify us of any changes to such personal information.",
+      "ThirdPartyInformation": "We may receive information about you from our service providers who assist us with marketing or promotional services.",
+      "AutomatedDataProcessing": "Automated processing of the personal data, including profiling, is not performed.",
+      "CookiesAndSimilarTechnologies": {
+        "UseOfCookies": "We use Cookies and similar technologies, such as Pixels, to improve functionality and personalize the user experience.",
+        "CookiesDetails": "For more information on Cookies and usage, refer to Article 10."
+      },
+      "DefinitionOfPersonalInformation": "Information that may be used, either alone or in combination with other information, to personally identify an individual, such as a first and last name, an email address, phone number, a home or other physical address, and other contact information."
+    },
+    "GeneralInformation": {
+      "Scope": "The Policy is addressed to individuals outside our company with whom we interact through the Website, including the Visitors and the Customers (hereinafter together, “you”, “your”).",
+      "title": "General Information",
+      "Details": "This Policy contains detailed information about how and why we collect, use, disclose, and otherwise process Personal data, what information becomes available to us and third parties when you visit our website.",
+      "Purpose": "For the purposes of this Privacy Policy (hereinafter – the “Policy”), <strong>“Name”</strong>, <strong>“we,”</strong> <strong>“us”</strong> and <strong>“our”</strong> refer to of the<strong> Company name.</strong>",
+      "Interactions": [
+        "visit our website ________________ or any our web-sources, that links to the Policy",
+        "sign up to our newsletter",
+        "take part in any marketing, or other event",
+        "interact with us in any other way"
+      ],
+      "Introduction": "Thank you for visiting our website!",
+      "WebsiteDescription": "This Website is a free online resource that strives to offer helpful content and comparison features to our visitors.",
+      "AdvertisingDisclosure": "This Website is a free online resource that strives to offer helpful content and comparisonfeatures to our visitors. We accept advertising compensation from companies that appear on the site, which impacts the location and order in which brands (and/or their products) are presented, and also impacts the score that is assigned to it. Company listings on this page DO NOT imply endorsement. We do not feature all providers on the market. Except as expressly set forth in our Terms of Use, all representations and warranties regarding the information presented on this page are disclaimed. The information, including pricing, which appears on this site is subject to change at any time.",
+      "RelationToOtherNotices": "The Policy relates only to collection of the information described hereto and should be viewed as a supplement to any other notices or contractual terms provided to Customers."
+    },
+    "UsePersonalData": {
+      "title": "How do we process Personal Data?",
+      "description": "Our Privacy Policy revolves around safeguarding your personal information. We understand the importance of maintaining the confidentiality and security of the data you entrust to us. Subject to any legal obligations, we will retain the information you provide for as long as it is necessary to deliver the requested services to you. Alternatively, we will keep your data until you request its deletion, whichever occurs first. We are committed to respecting your privacy and ensuring that your information is handled responsibly and in accordance with applicable laws and regulations.",
+      "right": "<strong><u>THE RIGHT TO OPT-OUT (WITHDRAW YOUR CONSENT) AND OBJECT</u></strong>",
+      "interest": "You may also object to our use of your data based on a legitimate interest. ",
+      "protectionOfChildren": [
+        "We do not knowingly collect personal information from persons under the age of 18 (hereinafter referred to as <strong>“Child”, “Children”</strong>). If you become aware that a Child has provided us with the Personal data, please contact us. If we become aware of the fact of collecting Children's Personal Data, we take measures to delete this information.",
+        "THIS WEBSITE IS ACCESSIBLE ONLY TO INDIVIDUALS WHO ARE AT LEAST 19 YEARS OF AGE."
+      ]
+    },
+    "WhereAndHowPersonalDataStore": {
+      "title": "Where and how are Personal data stored?",
+      "description": [
+        "We may accumulate the Personal data, inter alia by including this data in a personal database.The Personal data and databases are stored in our office: _____________________.",
+        "We also use the data centres of contractors who provide us with relevant services. You can get more detailed information in <strong><u> Section 8. Processors of the Personal Data </u></strong>hereto.",
+        "We have put in place appropriate security measures to prevent your personal data from being accidentally lost, used, or accessed in an unauthorized way, altered or disclosed. In addition, we limit access to your personal data to those employees, contractors who have a business need to know. They will only process your Personal data on our instructions, and they are subject to a duty of confidentiality.",
+        "We have put in place procedures to deal with any suspected personal data breach and will notify you and any applicable regulator of a breach where we are legally required to do so."
+      ]
+    },
+    "personaldatatothirdparties": {
+      "title": " Does We transfer Personal data to third parties?",
+      "description": [
+        "We may send or otherwise share your Information to/with various third parties that help us with our   business   operations   (for   example,   customer   service   operators   and   email   or   phone administration providers), that help us understand how our users use the Site and Services, operate them and to improve them. These third parties may have their own privacy policies that they adhere to, and we require them to make it available whenever their services are provided.We recommend you revisit such privacy policies when those Third Parties render their services directly to you. Also, these third parties may be based (and their servers may be located) anywhere in the world and are subject to our international transfers",
+        "We understand the value of Personal data and make efforts to keep it private and secure."
+      ],
+      "transfer": "We do not transfer Personal Data to third parties, except when such transfer is:",
+      "transferDetails": [
+        "- as required by legislation and only (if necessary) in the interests of national security, economic well-being and human rights;",
+        "- at the request of the Data Subject;",
+        "- to our Partners;",
+        "- to our Processors, as specified in Article 8 of this Policy."
+      ],
+      "restDetails": [
+        "For example, we may disclose the Personal data if we believe it is necessary or appropriate to protect the rights, property, or safety of Us, our partners, or other persons. This includes sharing information with other individuals and organizations for the purpose of protecting or preventing crime.",
+        "Partners and Products. The Services may include submission of online forms, in case you will choose and be interested to receive additional information about one service or another (“Online Form”). In which case, we may send your Online Form information or otherwise share it to/with the Partner about whom (or about whose Product) you wanted to receive more information or with which you have expressed interest in pursuing a transaction (the “Corresponding Partner” and “Corresponding Product”, respectively), for such Corresponding Partner to contact you back with the information you have requested. If your submission of an Online Form information was not in respect of a specific Partner or Product that you clicked through, then we may send or otherwise share your Online Forms information to a Partner that provides services or products similar in nature to your request. In either case, you acknowledge that: (a) the Partners may contact you using the Online Form information which you submitted; (b) we do not control the way in which a Partner may contact you, or the subject matter of such contact; and (c) each Partner is required to provide its own privacy policy, and so it would not necessarily adhere to this Privacy Policy."
+      ]
+    },
+    "processorsofthePersonaldata": {
+      "title": "Processors of the Personal data ",
+      "description": "We may engage third parties and/or individuals to facilitate the processing of the Personal data on our behalf, provide services such as data storage, assistance in analysing how our Website is used, improving the Website's usability, and other services necessary for the Website's operation and the achievement of the goals of our activities (hereinafter referred to as the <strong>“Processors”</strong>).",
+      "heading": "Our Processors are:",
+      "processesList": [
+        "1) Partners whose data centres we use:",
+        "2) Partners who help us analyse and collect data from the Website:",
+        "3) Advertisement partners ",
+        "4) Our employees and independent contractors, who support Us;",
+        "5) Other contractors, suppliers whose services we use to achieve the goal(s) of our activity."
+      ],
+      "purposes": "The Processors have access to your Personal data only to perform tasks within the scope and purposes of the Personal data processing in accordance with the Policy and are contractually obligated not to disclose or use it for any other purposes."
+    },
+
+    "crossBorderDataTransfer":{
+        "title":"Cross-border data transfer",
+        "description":[
+            "Your data may be used, stored, and processed in other countries where our Processors are located. These locations may be outside of your country of residence or outside of your state/province and may have different data protection standards than your country/state/province.",
+            "The transfer of Personal Data to foreign entities is carried out under the condition that the relevant state ensures adequate protection of Personal data.",
+            "If the level of data protection does not meet the European standard, data transfer takes place with appropriate safeguards and based on standard EU data protection provisions. If we transfer personal data from the EU / EEA to countries with insufficient data protection, we rely on Data Processing Agreements (DPAs) and Standard Contractual Clauses (SCCs) approved by the European Commission or other grounds as required or permitted by Articles 46 and 49 GDPR."
+        ]
+
+    },
+    "CookiesTechnologies":{
+        "title":"How do we use Cookies and similar technologies?",
+        "description":[
+            "We use Cookies and other technologies, such as Pixels, to improve functionality of the Website and   personalize   your   experience,   to   analyse   information   about   your   activities   for   better understanding how our Website is used and to customize our content, marketing strategy and online advertisements.",
+            "For example, the choice of your preferred language or the region that you are in is saved thanks to Cookies. Thus, you will not have to re-enter data or make settings when visiting the Website.",
+            "We also share information about your use of the Website with our trusted social media, advertising, and analytics partners.",
+            "You can allow or deny all Cookies, as well as personalize your settings. Cookies can be blocked by you at any time. With the help of a Cookie, we receive the Technical Data specified in the Policy.",
+            "You can see more details about how we use Cookies in <u>our Cookie Policy </u>at the link: ________  "
+        ]
+    },
+    "LimitationOfLiability":{
+        "title":"Limitation of liability regarding third-party resources",
+        "description":"The Website may contain links to third-party resources posted for informational purposes. If you link to other resources, this Policy will not apply to such resources."
+    }
+    
+
+  }
+}

@@ -1,10 +1,15 @@
+'use client'
+
 import WSpacedContainer from "@/components/WSpacedContainer";
 import { footerLinkData } from "@/utils/data";
 import { text } from "@/utils/text";
 import Image from "next/image";
 import React from "react";
+import { useRouter } from "next/navigation";
 
 export const FooterBar: React.FC = () => {
+  const router = useRouter();
+  const footerLinkPaths = ["/responsibleGaming", "/Privacy", "/TermOfService"];
   return (
     <section>
       <WSpacedContainer className="flex justify-between items-center xsm:px-4 xsm:flex-col xsm:items-start xsm:gap-y-6">
@@ -28,6 +33,7 @@ export const FooterBar: React.FC = () => {
               <h1
                 key={index}
                 className="text-base font-normal text-[#E6E6E8] cursor-pointer"
+                onClick={()=>router.push(footerLinkPaths[index])}
               >
                 {item}
               </h1>
