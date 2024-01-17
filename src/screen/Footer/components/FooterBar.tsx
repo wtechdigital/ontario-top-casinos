@@ -9,7 +9,7 @@ import { useRouter } from "next/navigation";
 
 export const FooterBar: React.FC = () => {
   const router = useRouter();
-  const footerLinkPaths = ["/responsibleGaming", "/Privacy", "/TermOfService"];
+  const footerLinkPaths = ["/responsibleGaming", "/Privacy", "/TermOfService","/"];
   return (
     <section>
       <WSpacedContainer className="flex justify-between items-center xsm:px-4 xsm:flex-col xsm:items-start xsm:gap-y-6">
