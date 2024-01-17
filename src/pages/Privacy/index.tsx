@@ -2,10 +2,16 @@ import React from 'react'
 import "tailwindcss/tailwind.css"
 import '../../app/globals.css'
 import PrivacyPolicies from '@/screen/Privacy'
-
- const Privacy = () => {
+import Header from "@/screen/Header";
+import FooterComponent from "@/screen/Footer";
+const Privacy = () => {
   return (
-   <PrivacyPolicies/>
+    <>
+      <Header />
+      <PrivacyPolicies />
+      <FooterComponent />
+
+    </>
   )
 }
 
