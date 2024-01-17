@@ -42,65 +42,51 @@ const Services = () => {
   }, []);
 
   return (
-    <WSpacedContainer className="xsm:px-4 py-8">
+    <WSpacedContainer className="xsm:px-4 py-8 !font-Kanit">
       {!loading ? (
         <div>
-          <h1 className="text-[36px] font-bold leading-[50px] xsm:text-10  ">
+          <h1 className="text-[48px] font-bold leading-[52px] xsm:text-10">
             {services?.title}
           </h1>
-          <p className="text-[18px] font-700 leading-[50px] xsm:text-10  ">
-            Website name {services?.review}
-          </p>
-          <p className="text-[18px] font-700 leading-[50px] xsm:text-10 mt-2 ">
-            {services?.accessingWebsite}
-          </p>
+          <p className="mt-5">Website name {services?.review}</p>
+          <p className="">{services?.accessingWebsite}</p>
+          <h1 className="text-xl font-bold text-[#E6E6E8] mt-3">Disclosure</h1>
 
-          <p className="text-[25px] font-700 leading-[50px] xsm:text-10 mt-2 ">
-            Disclosure
-          </p>
-          <ul className="grid !gap-y-[16px] text-base mt-5 leading-[52px] ">
+          <ul className="">
             {services?.Disclosure?.map((point: any, index: number) => (
               <div key={index} className="flex items-start ">
-                <span className="text-[18px] pb-1">{point}</span>
+                <span className="">{point}</span>
               </div>
             ))}
           </ul>
 
-          <p className="text-[25px] font-700 leading-[50px] xsm:text-10 mt-2 ">
-            Use Of Data
-          </p>
-          <p className="text-[18px] leading-[50px]  xsm:text-10 mt-2 ">
-            {services?.UseOfData}
-          </p>
-          <p className="text-[25px] font-700 leading-[50px] xsm:text-10 mt-2 ">
+          <h1 className="text-xl font-bold text-[#E6E6E8] mt-3">Use Of Data</h1>
+          <p className="">{services?.UseOfData}</p>
+          <h1 className="text-xl font-bold text-[#E6E6E8] mt-3">
             Disclaimer Of Warranty
-          </p>
-          <ul className="grid !gap-y-[16px] text-base mt-5  ">
+          </h1>
+          <ul className="">
             {services?.DisclaimerOfWarranty?.map(
               (point: any, index: number) => (
                 <div key={index} className="flex items-start ">
-                  <span className="text-[18px] leading-[50px] pb-1">
-                    {point}
-                  </span>
+                  <span className="">{point}</span>
                 </div>
               )
             )}
           </ul>
-          <p className="text-[25px] font-700 leading-[50px] xsm:text-10 mt-2 ">
+          <h1 className="text-xl font-bold text-[#E6E6E8] mt-3">
             Costs For Additional Services
-          </p>
-          <ul className="grid !gap-y-[16px] text-base mt-5  ">
+          </h1>
+          <ul className="">
             {services?.CostsForAdditional?.map((point: any, index: number) => (
               <div key={index} className="flex items-start ">
-                <span className="text-[18px] leading-[52px] pb-1">{point}</span>
+                <span className="">{point}</span>
               </div>
             ))}
           </ul>
-          <p className="text-[18px] font-700 leading-[50px] xsm:text-10 mt-2 ">
-            {services?.revision}
-          </p>
-          <p className="text-[18px] font-700 leading-[50px] xsm:text-10 mt-2 ">
-            Updated: {updatedon}
+          <p className="">{services?.revision}</p>
+          <p className="mt-3">
+           <span className="text-xl font-bold text-[#E6E6E8]">Updated:</span>  {updatedon}
           </p>
         </div>
       ) : (

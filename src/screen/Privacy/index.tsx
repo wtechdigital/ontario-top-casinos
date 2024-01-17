@@ -19,7 +19,7 @@ const PrivacyPolicies = () => {
  
   console.log(PrivacyData, "PrivacyData");
   return (
-    <WSpacedContainer className="xsm:px-4 py-8">
+    <WSpacedContainer className="xsm:px-4 py-8 !font-Kanit">
       <Image
         src={"/image/image83.png"}
         alt="chip"

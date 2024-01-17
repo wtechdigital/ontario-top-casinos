@@ -3,16 +3,16 @@
     "Definitions": {
       "terms": "Any capitalized definitions not otherwise defined in the Policy shall have the definitions set forth in the Terms.",
       "title": "The definitions we use",
-      "Device": "Any device that can access the Website, such as a computer, mobile phone, or tablet.",
-      "Pixels": "The pieces of software code that are integrated into the website code and allow tracking and analysis of User behaviour (which pages are visited, which links are followed, etc.).",
-      "Cookies": "Small pieces of data that are stored on your device (computer, smartphone, tablet, etc.) when you visit the Website.",
-      "Visitor": "A person who visits the Website.",
-      "Website": "Name website, available at the domain: [Insert Domain Here].",
-      "IPAddress": "Internet protocol (IP) address that is a unique number, like your post address, associated with your Internet activity.",
-      "DataSubject": "A natural person whose Personal data is processed.",
+      "Device": "<strong>The Device - </strong>Any device that can access the Website, such as a computer, mobile phone, or tablet.",
+      "Pixels": "<strong>the Pixels – </strong> The pieces of software code that are integrated into the website code and allow tracking and analysis of User behaviour (which pages are visited, which links are followed, etc.).",
+      "Cookies": "<strong>The Cookies - </strong>Small pieces of data that are stored on your device (computer, smartphone, tablet, etc.) when you visit the Website.",
+      "Visitor": "<strong>The Visitor –  </strong>A person who visits the Website.",
+      "Website": "<strong>The Website – </strong>Name website, available at the domain: [Insert Domain Here].",
+      "IPAddress": "<strong> the IP address: </strong>Internet protocol (IP) address that is a unique number, like your post address, associated with your Internet activity.",
+      "DataSubject": "<strong>the Data Subject: </strong>A natural person whose Personal data is processed.",
       "description": "Capitalized words, both singular and plural, have the following meanings in this Policy:",
-      "PersonalData": "Information about a natural person who is identified or can be specifically identified.",
-      "TechnicalData": "Information that is collected by the Website when you visit it (for example, the IP address (web protocol) of the device you use, data about the web browser you use, your operating system, etc.)."
+      "PersonalData": "<strong>The Personal data - </strong>Information about a natural person who is identified or can be specifically identified.",
+      "TechnicalData": "<strong> The Technical data – </strong>Information that is collected by the Website when you visit it (for example, the IP address (web protocol) of the device you use, data about the web browser you use, your operating system, etc.)."
     },
     "ContactDetails": {
       "Email": "<strong>contact@example.com</strong>",
@@ -121,11 +121,11 @@
       "description": "We may engage third parties and/or individuals to facilitate the processing of the Personal data on our behalf, provide services such as data storage, assistance in analysing how our Website is used, improving the Website's usability, and other services necessary for the Website's operation and the achievement of the goals of our activities (hereinafter referred to as the <strong>“Processors”</strong>).",
       "heading": "Our Processors are:",
       "processesList": [
-        "1) Partners whose data centres we use:",
-        "2) Partners who help us analyse and collect data from the Website:",
-        "3) Advertisement partners ",
-        "4) Our employees and independent contractors, who support Us;",
-        "5) Other contractors, suppliers whose services we use to achieve the goal(s) of our activity."
+        "Partners whose data centres we use:",
+        "Partners who help us analyse and collect data from the Website:",
+        "Advertisement partners ",
+        "Our employees and independent contractors, who support Us;",
+        "Other contractors, suppliers whose services we use to achieve the goal(s) of our activity."
       ],
       "purposes": "The Processors have access to your Personal data only to perform tasks within the scope and purposes of the Personal data processing in accordance with the Policy and are contractually obligated not to disclose or use it for any other purposes."
     },

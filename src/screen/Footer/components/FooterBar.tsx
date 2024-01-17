@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import WSpacedContainer from "@/components/WSpacedContainer";
 import { footerLinkData } from "@/utils/data";
@@ -9,7 +9,16 @@ import { useRouter } from "next/navigation";
 
 export const FooterBar: React.FC = () => {
   const router = useRouter();
-  const footerLinkPaths = ["/responsibleGaming", "/Privacy", "/TermOfService","/"];
+  const footerLinkPaths = [
+    "/responsibleGaming",
+    "/Privacy",
+    "/TermOfService",
+    "/",
+  ];
+  const handlePolicies = (e:any,index: number) => {
+    e.preventDefault();
+    router.push(footerLinkPaths[index]);
+  };
   return (
     <section>
       <WSpacedContainer className="flex justify-between items-center xsm:px-4 xsm:flex-col xsm:items-start xsm:gap-y-6">
@@ -33,7 +42,7 @@ export const FooterBar: React.FC = () => {
               <h1
                 key={index}
                 className="text-base font-normal text-[#E6E6E8] cursor-pointer"
-                onClick={()=>router.push(footerLinkPaths[index])}
+                onClick={(e) => handlePolicies(e,index)}
               >
                 {item}
               </h1>
