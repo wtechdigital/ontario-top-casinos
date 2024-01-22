@@ -1,5 +1,5 @@
 export const headersNav: string[] = [
-  "Top 10 Casino Rating",
+  "Top Casinos Rating",
   "Types Of Online Casino Games",
   "Regulations",
 ];
@@ -26,8 +26,7 @@ export const findingBestOnlineCasion: string[] = [
 export const footerLinkData: string[] = [
   "Responsible Gaming",
   "Privacy",
-  "Terms of Use",
-  "Cookie Policy",
+  "Terms of Use"
 ];
 
 export const footerImage: string[] = [

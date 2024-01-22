@@ -25,19 +25,23 @@ const Header: React.FC = () => {
             height={24}
             className="!object-contain"
           />
+          <a href="/">
           <h1 className="text-xl font-bold text-[#E6E6E8]">
             {text.canadaReview}
           </h1>
+          </a>
         </nav>
         <nav className="flex gap-x-8 xsm:hidden">
           {headersNav.map((item: string, index: number) => {
             return (
+              <a href="#casino-table">
               <h1
                 key={index}
                 className="text-base font-normal text-[#E6E6E8] cursor-pointer"
               >
                 {item}
               </h1>
+              </a>
             );
           })}
         </nav>

@@ -7,7 +7,7 @@
       "Pixels": "<strong>the Pixels – </strong> The pieces of software code that are integrated into the website code and allow tracking and analysis of User behaviour (which pages are visited, which links are followed, etc.).",
       "Cookies": "<strong>The Cookies - </strong>Small pieces of data that are stored on your device (computer, smartphone, tablet, etc.) when you visit the Website.",
       "Visitor": "<strong>The Visitor –  </strong>A person who visits the Website.",
-      "Website": "<strong>The Website – </strong>Name website, available at the domain: [Insert Domain Here].",
+      "Website": "<strong>The Website – </strong>Name website, available at the domain: https://ontariotopcasinos.com.",
       "IPAddress": "<strong> the IP address: </strong>Internet protocol (IP) address that is a unique number, like your post address, associated with your Internet activity.",
       "DataSubject": "<strong>the Data Subject: </strong>A natural person whose Personal data is processed.",
       "description": "Capitalized words, both singular and plural, have the following meanings in this Policy:",
@@ -15,10 +15,10 @@
       "TechnicalData": "<strong> The Technical data – </strong>Information that is collected by the Website when you visit it (for example, the IP address (web protocol) of the device you use, data about the web browser you use, your operating system, etc.)."
     },
     "ContactDetails": {
-      "Email": "<strong>contact@example.com</strong>",
+      "Email": "<strong> contact@ontariotopcasinos.com</strong>",
       "title": "Our contact detail",
-      "Address": "<strong>Your Company Address Here</strong>",
-      "CompanyName": "<strong>Your Company Name Here</strong>",
+      "Address": "<strong> 30 North Gould Street, NA, Sheridan, WY 82801</strong>",
+      "CompanyName": "<strong> Wintech Digital LLC</strong>",
       "Description": "If you have any questions about the Policy or our privacy practices, please contact us using the details below."
     },
     "DataCollection": {
@@ -69,7 +69,7 @@
       "Details": "This Policy contains detailed information about how and why we collect, use, disclose, and otherwise process Personal data, what information becomes available to us and third parties when you visit our website.",
       "Purpose": "For the purposes of this Privacy Policy (hereinafter – the “Policy”), <strong>“Name”</strong>, <strong>“we,”</strong> <strong>“us”</strong> and <strong>“our”</strong> refer to of the<strong> Company name.</strong>",
       "Interactions": [
-        "visit our website ________________ or any our web-sources, that links to the Policy",
+        "visit our website https://ontariotopcasinos.com or any our web-sources, that links to the Policy",
         "sign up to our newsletter",
         "take part in any marketing, or other event",
         "interact with us in any other way"
@@ -92,7 +92,6 @@
     "WhereAndHowPersonalDataStore": {
       "title": "Where and how are Personal data stored?",
       "description": [
-        "We may accumulate the Personal data, inter alia by including this data in a personal database.The Personal data and databases are stored in our office: _____________________.",
         "We also use the data centres of contractors who provide us with relevant services. You can get more detailed information in <strong><u> Section 8. Processors of the Personal Data </u></strong>hereto.",
         "We have put in place appropriate security measures to prevent your personal data from being accidentally lost, used, or accessed in an unauthorized way, altered or disclosed. In addition, we limit access to your personal data to those employees, contractors who have a business need to know. They will only process your Personal data on our instructions, and they are subject to a duty of confidentiality.",
         "We have put in place procedures to deal with any suspected personal data breach and will notify you and any applicable regulator of a breach where we are legally required to do so."
@@ -145,8 +144,8 @@
             "We use Cookies and other technologies, such as Pixels, to improve functionality of the Website and   personalize   your   experience,   to   analyse   information   about   your   activities   for   better understanding how our Website is used and to customize our content, marketing strategy and online advertisements.",
             "For example, the choice of your preferred language or the region that you are in is saved thanks to Cookies. Thus, you will not have to re-enter data or make settings when visiting the Website.",
             "We also share information about your use of the Website with our trusted social media, advertising, and analytics partners.",
-            "You can allow or deny all Cookies, as well as personalize your settings. Cookies can be blocked by you at any time. With the help of a Cookie, we receive the Technical Data specified in the Policy.",
-            "You can see more details about how we use Cookies in <u>our Cookie Policy </u>at the link: ________  "
+            "You can allow or deny all Cookies, as well as personalize your settings. Cookies can be blocked by you at any time. With the help of a Cookie, we receive the Technical Data specified in the Policy."
+            
         ]
     },
     "LimitationOfLiability":{

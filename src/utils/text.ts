@@ -1,7 +1,7 @@
 export const text = {
-  canadaReview: "Canada Review",
+  canadaReview: "Ontario Top Casinos",
   exploreOntarioLicensedCasinoSites: "Explore Ontario Licensed casino sites",
-  top5BestOnlineCasinos: "Top 5 Best Online Casinos",
+  top5BestOnlineCasinos: "Top 3 Best Online Casinos",
   selectCasino: "Select Casino",
   secureAndTrusted: "Secure & Trusted",
   didYouKnow: "Did you know?",

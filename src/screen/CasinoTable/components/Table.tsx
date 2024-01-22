@@ -133,7 +133,7 @@ export const Table: React.FC<TableProps> = ({
                   <span
                     className={`w-8 h-8 absolute grid place-items-center rounded-lg -left-[14px] !top-[40%] text-center bg-[#FFFFFF1A] group-hover:bg-[#AA0BEA]`}
                   >
-                    {item?.id}
+                    {index+1}
                   </span>
                 </td>
                 <td className="!w-[192px] !pr-6">

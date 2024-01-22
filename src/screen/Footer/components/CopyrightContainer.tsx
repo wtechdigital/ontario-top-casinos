@@ -8,7 +8,7 @@ export const CopyrightContainer = () => {
   return (
     <section className="xsm:px-4">
       <WSpacedContainer className="flex justify-between items-center xsm:flex-col-reverse xsm:gap-y-6">
-        <h4 className="xsm:text-sm">Copyright © {year} Canada Review Site. All rights reserved</h4>
+        <h4 className="xsm:text-sm">Copyright © {year} Ontario Top Casinos. All rights reserved</h4>
         <picture className="!relative flex gap-x-8 xsm:gap-x-4">
           {footerImage.map((imageSrc, index) => (
             <Image
