@@ -34,7 +34,7 @@ const Header: React.FC = () => {
         <nav className="flex gap-x-8 xsm:hidden">
           {headersNav.map((item: string, index: number) => {
             return (
-              <a href="#casino-table">
+              <a href="#casino-table" key={index}>
               <h1
                 key={index}
                 className="text-base font-normal text-[#E6E6E8] cursor-pointer"
