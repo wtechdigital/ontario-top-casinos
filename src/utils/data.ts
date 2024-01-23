@@ -24,7 +24,7 @@ export const findingBestOnlineCasion: string[] = [
 ];
 
 export const footerLinkData: string[] = [
-  "Gambleaware",
+  "Be Gamble Aware",
   "Privacy",
   "Terms of Use"
 ];
