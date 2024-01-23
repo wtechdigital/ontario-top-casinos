@@ -28,7 +28,7 @@ export const AdvertiserDisclosure: React.FC = () => {
       />
       <WSpacedContainer className="p-6 rounded-3xl border-[1px] border-[#E6E6E833] grid gap-y-2">
         <RowElement className="!gap-1">
-          <h5 className="text-base font-bold">19+</h5>
+          <h5 className="text-base font-bold">18+</h5>
           <h5 className="text-base font-bold">{text.advertiserDisclosure}</h5>
         </RowElement>
         <p className="opacity-[0.6] text-sm font-normal">

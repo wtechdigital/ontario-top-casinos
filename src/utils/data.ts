@@ -24,13 +24,12 @@ export const findingBestOnlineCasion: string[] = [
 ];
 
 export const footerLinkData: string[] = [
-  "Responsible Gaming",
+  "Gambleaware",
   "Privacy",
   "Terms of Use"
 ];
 
 export const footerImage: string[] = [
-  "/icon/image86.png",
   "/icon/image88.png",
   "/icon/image90.png",
   "/icon/image92.png",

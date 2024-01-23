@@ -10,7 +10,7 @@ import { useRouter } from "next/navigation";
 export const FooterBar: React.FC = () => {
   const router = useRouter();
   const footerLinkPaths = [
-    "/responsibleGaming",
+    "https://www.begambleaware.org",
     "/Privacy",
     "/TermOfService",
     "/",
@@ -39,13 +39,14 @@ export const FooterBar: React.FC = () => {
         <nav className="flex gap-x-8 xsm:flex-col xsm:gap-y-2">
           {footerLinkData.map((item: string, index: number) => {
             return (
+              <a href={footerLinkPaths[index]} key={index}>
               <h1
                 key={index}
                 className="text-base font-normal text-[#E6E6E8] cursor-pointer"
-                onClick={(e) => handlePolicies(e,index)}
               >
                 {item}
               </h1>
+              </a>
             );
           })}
         </nav>
