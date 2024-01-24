@@ -30,7 +30,6 @@ export const footerLinkData: string[] = [
 ];
 
 export const footerImage: string[] = [
-  "/icon/image88.png",
   "/icon/image90.png",
   "/icon/image92.png",
   "/icon/image94.png",
